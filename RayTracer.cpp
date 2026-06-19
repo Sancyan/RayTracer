@@ -3,8 +3,8 @@
 
 #include "RayTracer.h"
 
-#include "camera.h"
 #include "rtweekend.h"
+#include "camera.h"
 #include "hittable.h"
 #include "hittable_list.h"
 #include "sphere.h"
@@ -13,15 +13,7 @@
 
 int main()
 {
-	//Image
-	auto aspect_ratio = 16.0 / 9.0;
-	int image_width = 400;
 
-	//Calcuate image ratio for ppm
-	int image_height = int(image_width / aspect_ratio);
-	image_height = (image_height < 1) ? 1 : image_height;
-
-	// Viewport widths less than one are ok since they are real valued.
 
 	//World
 
