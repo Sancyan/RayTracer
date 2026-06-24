@@ -21,7 +21,7 @@ public:
 
         auto sqrtd = std::sqrt(discriminant);
 
-        //Find nearest root that lies in range of sphere
+        //Find nearest root that lies in range of Sphere
         auto root = (h - sqrtd) / a;
 
         if (!ray_t.surrounds(root)) {
